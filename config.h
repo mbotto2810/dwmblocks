@@ -2,15 +2,13 @@
 static const Block blocks[] = {
 //	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"",    "cat /tmp/recordingicon 2>/dev/null",	0,	9},
-    {"",    "echo '¯ \\ _ (ツ) _ / ¯'"},
-
-    {"",    "space.sh"},
-
-    {"",    "echo "},
-    {"",    "echo "},
-    {"",    "echo 🎵"},
+	//{"",    "echo '¯ \\ _ (ツ) _ / ¯'"},
+	//{"",    "space.sh"},
+	//{"",    "echo "},
+	//{"",    "echo "},
+	//{"",    "echo 🎵"},
 	{"",	"music",	1,	11},
-    {"",    "space.sh"},
+	//{"",    "space.sh"},
 
 //	{"",	"pacpackages",	0,	8},
 //    {"",    "space.sh"},
@@ -22,11 +20,11 @@ static const Block blocks[] = {
 //  {"",    "space.sh"},
 
 	{"",	"torrent",	20,	7},
-    {"",    "space.sh"},
+    //{"",    "space.sh"},
 
 	{"",	"memory",	10,	14},
 	{"",	"cpu",		10,	13},
-    {"",    "space.sh"},
+    //{"",    "space.sh"},
 
 //    {"",	"moonphase",	18000,	5},
 //    {"",    "space.sh"},
@@ -35,24 +33,24 @@ static const Block blocks[] = {
 //    {"",    "space.sh"},
 
 	{"",	"mailbox",	180,	12},
-    {"",    "space.sh"},
+    //{"",    "space.sh"},
 
 //    {"",	"nettraf",	1,	16},
 //    {"",    "space.sh"},
 
 	{"",	"volume",	0,	10},
-    {"",    "space.sh"},
+    //{"",    "space.sh"},
 
 	{"",	"battery | tr \'\n\' \' \'",	5,	3},
-    {"",    "space.sh"},
+    //{"",    "space.sh"},
 
 	{"",	"internet",	5,	4},
-    {"",    "space.sh"},
+    //{"",    "space.sh"},
 
 	{"",	"clock",	60,	1},
-	{"",    "echo '🐧' "},
-	{"",    "echo '🇧🇷' "},
-	{"",    "echo '🐧' "},
+//	{"",    "echo '🐧' "},
+//	{"",    "echo '🇧🇷' "},
+//	{"",    "echo '🐧' "},
 
 
 
@@ -62,7 +60,7 @@ static const Block blocks[] = {
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
-static char delim = '~';
+static char delim = ' ';
 
 // Have dwmblocks automatically recompile and run when you edit this file in
 // vim with the following line in your vimrc/init.vim:
